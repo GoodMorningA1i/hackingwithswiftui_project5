@@ -8,7 +8,7 @@ This project covers List, .onAppear, Bundle, UITextChecker, Objective-C, ......
 
 ## Diagrams
 
-<img src=https://github.com/user-attachments/assets/128de5c5-0d6b-4e20-86ec-3335664c8cdd width=300>
+
 
 ### Built With
 
