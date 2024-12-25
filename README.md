@@ -2,7 +2,7 @@
 
 ## About the Project
 
-Word Scramble, Description........
+Word Scramble, a game that shows players a random eight-letter word and ask them to make as many words as they can using those letters. The crafted words don't need to be eight letters long.
 
 This project covers List, .onAppear, Bundle, UITextChecker, Objective-C, ......
 
