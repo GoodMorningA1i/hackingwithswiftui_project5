@@ -6,6 +6,8 @@ Word Scramble, a game that shows players a random eight-letter word and ask them
 
 This project covers List, .onAppear, Bundle, UITextChecker, Objective-C, ......
 
+Don't forget about the many topics we will be reviewing!
+
 ## Diagrams
 
 
