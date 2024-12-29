@@ -60,9 +60,10 @@ struct ContentView: View {
                 
                 return
             }
+            fatalError("Can locate but not load start.txt into string")
         }
         
-        fatalError("Could not load start.txt from bundle")
+        fatalError("Could not locate start.txt from bundle")
     }
         
 }
