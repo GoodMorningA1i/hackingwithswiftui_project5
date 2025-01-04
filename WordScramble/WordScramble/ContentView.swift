@@ -13,6 +13,8 @@ struct ContentView: View {
     @State private var rootWord = ""
     @State private var newWord = ""
     
+    @State private var errorTitle = ""
+    
     var body: some View {
         NavigationStack {
             List {
