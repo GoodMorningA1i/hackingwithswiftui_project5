@@ -14,6 +14,7 @@ struct ContentView: View {
     @State private var newWord = ""
     
     @State private var errorTitle = ""
+    @State private var errorMessage = ""
     
     var body: some View {
         NavigationStack {
