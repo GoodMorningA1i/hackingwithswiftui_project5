@@ -95,6 +95,12 @@ struct ContentView: View {
         
         return mispelledRange.location == NSNotFound
     }
+    
+    func wordError(title: String, message: String) {
+        errorTitle = title
+        errorMessage = message
+        showingError = true
+    }
 }
 
 #Preview {
