@@ -25,6 +25,11 @@ struct ContentView: View {
                         .textInputAutocapitalization(.never)
                         .onSubmit(addNewWord)
                         .onAppear(perform: startGame)
+                        .alert(errorTitle, isPresented: $showingError) {
+                            Button("OK") { }
+                        } message: {
+                            Text(errorMessage)
+                        }
                 }
                 
                 Section {
