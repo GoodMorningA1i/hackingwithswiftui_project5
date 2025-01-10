@@ -52,7 +52,20 @@ struct ContentView: View {
         //exit if the string is empty after being lowercased and trimmed
         guard answer.count > 0 else { return }
         
-        //extra validation to come
+        guard isOriginal(word: answer) else {
+            wordError(title: "Word used already", message: "Be more original")
+            return
+        }
+        
+        guard isPossible(word: answer) else {
+            wordError(title: "Word not possible", message: "You can't spell that word from '\(rootWord)'!")
+            return
+        }
+        
+        guard isReal(word: answer) else {
+            wordError(title: "Word not recognized", message: "You can't just make them up, you know!")
+            return
+        }
         
         withAnimation {
             usedWords.insert(answer, at: 0)
