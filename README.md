@@ -10,7 +10,7 @@ Don't forget about the many topics we will be reviewing!
 
 ## Diagrams
 
-![Simulator Screenshot - iPhone 16 Pro - 2025-01-11 at 17 59 36](https://github.com/user-attachments/assets/034c8ed3-d3a0-4973-920c-a7b24fb1f6d3)
+<img src="https://github.com/user-attachments/assets/034c8ed3-d3a0-4973-920c-a7b24fb1f6d3" width="400">
 
 ### Built With
 
